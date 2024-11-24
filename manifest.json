@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Open Links from Google Sheet",
+    "version": "1.0",
+    "description": "Open multiple links from a Google Sheet in new tabs.",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
